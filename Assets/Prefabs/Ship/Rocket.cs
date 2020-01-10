@@ -17,6 +17,7 @@ public class Rocket : MonoBehaviour
     [SerializeField] ParticleSystem rcsThrustParticlesRight;
     [SerializeField] ParticleSystem rcsThrustParticlesLeft;
     [SerializeField] ParticleSystem shipExplosionParticles;
+    [SerializeField] ParticleSystem shipSmokeParticles;
     [SerializeField] ParticleSystem shipReachedObjectiveParticles;
 
     Rigidbody shipRigidBody;
@@ -104,6 +105,7 @@ public class Rocket : MonoBehaviour
         shipSounds.Stop(); //stops the thrusting sound
         shipSounds.PlayOneShot(shipExplosionSound);
         shipExplosionParticles.Play();
+        shipSmokeParticles.Play();
         Invoke("ReloadCurrentLevel", levelLoadDelay); // Invoke demands the use of a string (the method needs to be given to invoke as a string)
     }
 

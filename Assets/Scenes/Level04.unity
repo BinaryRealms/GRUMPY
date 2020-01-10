@@ -957,7 +957,7 @@ PrefabInstance:
     - target: {fileID: 1342096910267096155, guid: b37b360db6938964886eb3ffe2677dbb,
         type: 3}
       propertyPath: m_Intensity
-      value: 36000
+      value: 27000
       objectReference: {fileID: 0}
     - target: {fileID: 3998274578135565756, guid: b37b360db6938964886eb3ffe2677dbb,
         type: 3}
@@ -6141,12 +6141,12 @@ PrefabInstance:
     - target: {fileID: 109677093071339419, guid: a02e9e58d7ccdba4094ba19be79d40da,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 1e-45
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 109677093071339419, guid: a02e9e58d7ccdba4094ba19be79d40da,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 109677093071339419, guid: a02e9e58d7ccdba4094ba19be79d40da,
         type: 3}
@@ -12521,7 +12521,7 @@ PrefabInstance:
     - target: {fileID: 1342096910267096155, guid: b37b360db6938964886eb3ffe2677dbb,
         type: 3}
       propertyPath: m_Intensity
-      value: 36000
+      value: 27000
       objectReference: {fileID: 0}
     - target: {fileID: 3998274578135565756, guid: b37b360db6938964886eb3ffe2677dbb,
         type: 3}
@@ -15846,7 +15846,7 @@ PrefabInstance:
     - target: {fileID: 1342096910267096155, guid: b37b360db6938964886eb3ffe2677dbb,
         type: 3}
       propertyPath: m_Intensity
-      value: 36000
+      value: 27000
       objectReference: {fileID: 0}
     - target: {fileID: 3998274578135565756, guid: b37b360db6938964886eb3ffe2677dbb,
         type: 3}
